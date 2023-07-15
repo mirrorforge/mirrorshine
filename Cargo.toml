@@ -3,6 +3,8 @@ name = "mirrorshine"
 version = "0.1.0"
 edition = "2021"
 description = "Rsync based mirror administration cli"
+license = "MPL-2.0"
+repository = "https://github.com/mirrorforge/mirrorshine"
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
 serde = { version = "1.0.164", features = ["derive"] }
