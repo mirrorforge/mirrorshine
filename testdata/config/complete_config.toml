@@ -1,0 +1,11 @@
+# Config file that has all the defined fields
+destination_root="/tmp/mirrors/data"
+status_file="/tmp/mirrors/status"
+
+[[mirror]]
+source="rsync://rsync.example.com/mirror1"
+destination="mirror1"
+
+[[mirror]]
+source="rsync://rsync.example.com/mirror2"
+destination="/tmp/outside/mirror2"
